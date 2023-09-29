@@ -49,12 +49,14 @@ body {
     text-align: center;
     font-size: var(--fz-default);
     color: var(--clr-neutral--white);
+    font-family: var(--ff-body-copy);
     background-color: var(--bg-clr-primary--main);
 }
 
 h1,
 h2,
 h3 {
+    font-family: var(--ff-headings);
     line-height: 1.1;
 }
 
@@ -188,7 +190,12 @@ section {
 }
 
 .how-it-works__container>* {
-    margin-block: 1em;
+    margin-block: .5em;
+}
+
+.how-it-works__title {
+    font-size: clamp(1.8rem, 10vw, 4rem);
+    width: 80%;
 }
 
 .how-it-works__cta {
@@ -304,6 +311,10 @@ section {
 
 .cta-container>* {
     margin-block: .5em;
+}
+
+.cta__title {
+    font-size: clamp(1.2rem, 8vw, 3rem);
 }
 
 .cta__email-input-form {

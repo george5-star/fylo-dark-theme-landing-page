@@ -9,7 +9,6 @@
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
   - [Continued development](#continued-development)
-  - [Useful resources](#useful-resources)
 - [Author](#author)
 
 ## Overview
@@ -23,7 +22,7 @@ Users should be able to:
 
 ### Screenshot
 
-![Project Screenshot](./screenshot.jpg)
+![Project Screenshot](./src/assets/images/project-screenshot.jpg)
 
 ## My process
 
@@ -38,9 +37,11 @@ Users should be able to:
 
 ### What I learned
 
+I brushed up on how to add icons using font awesome cdn and also learn something about css positions and pseudo classes.
+
 ### Continued development
 
-### Useful resources
+CSS Animation
 
 ## Author
 
